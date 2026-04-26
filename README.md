@@ -92,6 +92,17 @@ pip install -r requirements.txt
 
 Make sure `template.docx` is present in the root folder. The script reads this file every time.
 
+### Step 3: Update untouched fields in the template
+
+Before generating resumes, open `template.docx` and replace all static fields that are not auto-generated, such as:
+- Name
+- Email
+- Phone
+- LinkedIn/GitHub
+- Any fixed sections you want to keep constant
+
+Do this once so your generated output is immediately usable.
+
 ---
 
 ## 5. Start From Zero: Create Your Background Profile
@@ -161,6 +172,16 @@ python resume.py resume_data.json my_resume_output.docx
 
 Generated file location:
 - `output/my_resume_output.docx`
+
+### Step 7: Final review and export
+
+After generation:
+- Open the `.docx` file in the `output/` folder
+- Review content carefully for accuracy and wording
+- Make small manual edits if needed
+- Save/export as PDF
+
+Once exported, your resume is ready to upload.
 
 ---
 
