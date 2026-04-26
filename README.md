@@ -55,7 +55,32 @@ What each item is for:
 
 ---
 
-## 3. First-Time Setup (One Time)
+## 3. Make a Local Copy of This Repository
+
+If you are starting from GitHub and want this project on your machine:
+
+### Option A: Clone with HTTPS
+
+```bash
+git clone https://github.com/PurvaPatel4725/Resume-Automation.git
+cd Resume-Automation
+```
+
+### Option B: Clone with SSH
+
+```bash
+git clone git@github.com:PurvaPatel4725/Resume-Automation.git
+cd Resume-Automation
+```
+
+If this is your first time using GitHub locally:
+- Install Git
+- Authenticate with GitHub (HTTPS credential helper or SSH key)
+- Then run one of the clone options above
+
+---
+
+## 4. First-Time Setup (One Time)
 
 ### Step 1: Install Python dependencies
 
@@ -69,7 +94,7 @@ Make sure `template.docx` is present in the root folder. The script reads this f
 
 ---
 
-## 4. Start From Zero: Create Your Background Profile
+## 5. Start From Zero: Create Your Background Profile
 
 If you do not already have a complete professional background document:
 
@@ -95,16 +120,26 @@ This becomes your reusable source profile for future applications.
 
 ---
 
-## 5. Per Job Application Workflow (Repeat Every Time)
+## 6. Per Job Application Workflow (Repeat Every Time)
 
 ### Step 1: Copy the tailoring prompt
 
 Use:
 - `prompts/prompt.txt`
 
+Important note:
+- The current `prompts/prompt.txt` is written primarily for entry-level use cases.
+- You can and should modify it based on your target role and experience level.
+- Use the current prompt as a reference structure, then refine wording to match your exact use case.
+
 ### Step 2: Add the target job description
 
 Replace the placeholder job description section in the prompt with the actual job posting text.
+
+Be specific in your prompt edits:
+- If you are early in your career, keep emphasis on internships, projects, coursework, and transferable impact.
+- If you have professional experience, request deeper ownership, scope, leadership, and measurable business outcomes.
+- Explicitly ask the AI to produce ATS-friendly resume content with clear keywords from the job description.
 
 ### Step 3: Provide your background content
 
@@ -129,7 +164,7 @@ Generated file location:
 
 ---
 
-## 6. Full Flow in One View
+## 7. Full Flow in One View
 
 ```
 No background document yet
@@ -153,7 +188,7 @@ Receive tailored resume in output/
 
 ---
 
-## 7. Privacy and Security Recommendation
+## 8. Privacy and Security Recommendation
 
 Your background file can contain sensitive personal information.
 
@@ -169,7 +204,7 @@ If you must use a cloud AI service, avoid sharing unnecessary personal identifie
 
 ---
 
-## 8. JSON Rules You Should Not Break
+## 9. JSON Rules You Should Not Break
 
 Before running the script, validate that:
 - `resume_data.json` is not empty
@@ -184,7 +219,7 @@ Before running the script, validate that:
 
 ---
 
-## 9. Troubleshooting
+## 10. Troubleshooting
 
 ### Problem: Script fails immediately
 Possible causes:
@@ -209,16 +244,18 @@ All generated resumes are saved in `output/` by default.
 
 ---
 
-## 10. Practical Tips
+## 11. Practical Tips
 
 - Keep `background data/background.md` detailed and updated every few months.
 - Keep job descriptions as complete as possible when prompting AI.
+- Tailor `prompts/prompt.txt` to your stage: entry-level, early-career, or experienced professional.
+- Ask for ATS-friendly resume language directly in the prompt to improve keyword alignment.
 - Generate one JSON per application and keep filenames descriptive.
 - Do not edit `resume.py` each time. Only update JSON input.
 
 ---
 
-## 11. Quick Commands
+## 12. Quick Commands
 
 Install:
 ```bash
@@ -232,8 +269,16 @@ python resume.py resume_data.json my_resume_output.docx
 
 ---
 
-## 12. License / Usage Note
+## 13. License / Usage Note
 
 This project is shared as a lightweight personal automation utility.
 
 Feel free to use this small automation application and adapt it to your own resume workflow.
+
+---
+
+## 14. Author
+
+Purva Patel
+
+Website: https://www.purva-patel.com/
