@@ -1,0 +1,70 @@
+JOB DESCRIPTION:
+[Paste the full job description here]
+
+MY BACKGROUND FILE:
+The file has been attached with relevant data
+
+---
+
+Extract relevant information from my background PDF and the job description above.
+Output ONLY a single valid JSON object. No explanation, no markdown, no code fences.
+The JSON must follow this exact schema:
+
+{
+  "professional_summary": "string — exactly 3 sentences, keywords mirrored from JD, no filler phrases, suitable for a new graduate from undergraduate degree",
+
+  "work_experience": [
+    {
+      "job_title": "string — title as it appears or closest relevant title from my background",
+      "company": "string — exact company name from PDF",
+      "city": "string — city and province/state from PDF, or [Verify City] if not found",
+      "dates": "string — e.g. May 2023 – Aug 2024, or [Verify Date] if unclear",
+      "bullets": [
+        "string — action verb + JD keyword + quantified result, max 20 words",
+        "string — action verb + JD keyword + quantified result, max 20 words",
+        "string — action verb + JD keyword + quantified result, max 20 words"
+      ]
+    },
+    {
+      "job_title": "string",
+      "company": "string",
+      "city": "string",
+      "dates": "string",
+      "bullets": [
+        "string",
+        "string",
+        "string"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "string — descriptive project name",
+      "tech_stack": "string — comma separated tools from JD or my background",
+      "date": "string — Month Year or [Verify Date]",
+      "bullets": [
+        "string — what was built or done, technical, uses JD keywords",
+        "string — outcome or impact with metric or JD keyword"
+      ]
+    },
+    {
+      "name": "string",
+      "tech_stack": "string",
+      "date": "string",
+      "bullets": [
+        "string",
+        "string"
+      ]
+    }
+  ]
+}
+
+Rules:
+- Output the raw JSON only. No text before or after it.
+- Do not fabricate company names or job titles — pull from the PDF only
+- Use [Verify City] or [Verify Date] if information is missing from the PDF
+- Every bullet in work_experience must contain at least one keyword from the job description
+- bullets array must have exactly 3 items for work_experience and exactly 2 for projects
+- tech_stack must be a single comma-separated string, not an array
+- All work experience and Project points written must be context aware and use the correct terminology

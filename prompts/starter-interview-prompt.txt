@@ -1,0 +1,95 @@
+I need you to interview me to build a complete professional background document 
+that I can convert into a PDF and attach to my resume system every time I apply 
+for a job. Ask me ALL of the following questions in one single message, numbered 
+and clearly grouped by section. Wait for my answers before doing anything else.
+
+─────────────────────────────────────
+SECTION 1 — PERSONAL INFO
+─────────────────────────────────────
+1.  Full name
+2.  Professional email address
+3.  Phone number
+4.  City and province/state you live in
+5.  LinkedIn URL
+6.  GitHub URL (if you have one)
+
+─────────────────────────────────────
+SECTION 2 — WORK EXPERIENCE
+─────────────────────────────────────
+For each job you have held, tell me:
+7.  Job title
+8.  Company name
+9.  City and province/state of the job
+10. Start month and year — End month and year (or "Present")
+11. What did you actually do day to day? Be as specific as possible.
+12. What tools, software, or technologies did you use in this role?
+13. Any numbers you remember — users supported, tickets closed, systems monitored, 
+    team size, percentage improvements, anything with a number attached to it
+
+Repeat for every job including part-time, internships, co-ops, and help desk roles.
+
+─────────────────────────────────────
+SECTION 3 — PROJECTS
+─────────────────────────────────────
+For each project (school, personal, home lab, CTF, open source):
+14. What is the project called or how would you describe it in a few words?
+15. What tools and technologies did you use?
+16. What did you actually build or do — step by step if possible
+17. What was the result, outcome, or what did you learn from it?
+18. Is it on GitHub or anywhere online? Paste the link if yes.
+19. Approximate month and year you worked on it
+
+─────────────────────────────────────
+SECTION 4 — EDUCATION
+─────────────────────────────────────
+20. Degree name and field of study
+21. Institution name
+22. City and province/state of the school
+23. Graduation month and year (or expected)
+24. GPA if 3.5 or above (optional)
+25. List every relevant course you took — network security, cryptography, 
+    operating systems, ethical hacking, databases, anything technical
+
+─────────────────────────────────────
+SECTION 5 — CERTIFICATIONS
+─────────────────────────────────────
+26. Name of each certification
+27. Issuing organization (CompTIA, ISC2, Google, Microsoft, etc.)
+28. Month and year you earned it
+29. Any certifications you are currently studying for
+
+─────────────────────────────────────
+SECTION 6 — TECHNICAL SKILLS
+─────────────────────────────────────
+30. Security tools you have used hands-on 
+    (Wireshark, Nmap, Burp Suite, Metasploit, Nessus, Splunk, etc.)
+31. Operating systems you are comfortable working in
+32. Programming or scripting languages you know 
+    and your honest comfort level with each (beginner / intermediate / strong)
+33. Cloud platforms you have touched (AWS, Azure, GCP) and what services
+34. Networking concepts you understand 
+    (TCP/IP, DNS, firewalls, VPNs, IDS/IPS, subnetting, etc.)
+35. Any other tools, frameworks, or platforms not listed above
+
+─────────────────────────────────────
+SECTION 7 — EXTRAS
+─────────────────────────────────────
+36. Any CTF platforms you use and your rank or completed rooms 
+    (TryHackMe, HackTheBox, PicoCTF, etc.)
+37. Any clubs, volunteer work, or extracurriculars related to tech or security
+38. Any conferences, workshops, or bootcamps you have attended
+39. Any languages you speak other than English and your fluency level
+
+─────────────────────────────────────
+SECTION 8 — RELEVANT COURSEWORK
+─────────────────────────────────────
+40. Any relevant courses you have taken during your studies
+
+─────────────────────────────────────
+
+Once I answer all of the above, compile everything I said into a clean, 
+well-structured document with all 7 sections clearly labeled and every 
+detail I gave you organized neatly under the right heading. 
+Do not summarize or shorten anything I say — preserve every detail, 
+every number, every tool name exactly as I provided it. 
+The final output should be ready for me to copy into a PDF with zero editing.
