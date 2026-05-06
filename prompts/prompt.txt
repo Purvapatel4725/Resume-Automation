@@ -2,7 +2,7 @@ JOB DESCRIPTION:
 [Paste the full job description here]
 
 MY BACKGROUND FILE:
-The file has been attached with relevant data
+[The file has been attached with relevant data]
 
 ---
 
@@ -61,10 +61,32 @@ The JSON must follow this exact schema:
 }
 
 Rules:
+
 - Output the raw JSON only. No text before or after it.
 - Do not fabricate company names or job titles — pull from the PDF only
+- Never make up or assume experience, tools, technologies, responsibilities, or metrics that are not explicitly stated in my background
+- Do not reinterpret or rebrand roles to match the job description (e.g., do not convert “student support” into “helpdesk support”)
 - Use [Verify City] or [Verify Date] if information is missing from the PDF
-- Every bullet in work_experience must contain at least one keyword from the job description
+- Every bullet in work_experience should use at least one relevant keyword from the job description **only if it naturally fits the original experience without changing its meaning**
+- If a job description keyword cannot be applied without altering the original context, prioritize accuracy over keyword inclusion
 - bullets array must have exactly 3 items for work_experience and exactly 2 for projects
 - tech_stack must be a single comma-separated string, not an array
-- All work experience and Project points written must be context aware and use the correct terminology
+- All work experience and project points must preserve the original context and domain of the experience (e.g., education, admissions, cybersecurity)
+- Translate transferable skills without changing meaning (e.g., “student inquiries” → “user inquiries” is acceptable; “admissions support” → “IT helpdesk” is not)
+- Only include troubleshooting, escalation, system support, or technical tasks if they are explicitly supported by the background
+- Only include tools and technologies explicitly listed in the background; do not infer or add missing tools from the job description
+- Maintain strong coherence, clarity, and consistency across all sections
+- Align experience and project descriptions with the job description using truthful and directly transferable skills only
+- Do not exaggerate impact or include unsupported quantified results
+- Prioritize factual accuracy and integrity over optimization for the job description
+- Use terminology exactly as it appears in the background file; do not replace domain-specific terms with job description terms (e.g., “students” must remain “students,” not “users”)
+- Do not generalize or abstract role-specific language (e.g., “admissions inquiries” must not become “helpdesk tickets”)
+- Only use job description terminology when it naturally matches the original wording and context
+- Preserve the original audience and stakeholder type (e.g., students, clients, participants) without substitution
+- Do not reframe non-IT roles into IT-specific terminology (e.g., teaching ≠ technical support)
+- Maintain the original domain context in all descriptions (education, cybersecurity, admissions, etc.)
+- Avoid synonym substitution if it changes the meaning or scope of the original responsibility
+- If a job description keyword conflicts with the original terminology, prioritize the original wording
+- Ensure that all terminology reflects actual tasks performed, not inferred or translated equivalents
+- Do not convert communication tasks into technical support tasks unless explicitly stated in the background
+
